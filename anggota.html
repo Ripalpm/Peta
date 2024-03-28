@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* CSS untuk mempercantik tampilan nama kelompok */
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+      }
+
+      /* CSS untuk nama anggota kelompok dan jabatan */
+      .group-info {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        color: #555;
+      }
+
+      /* CSS untuk kontainer anggota kelompok */
+      .member-container {
+        background-color: #f8f9fa;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      /* CSS untuk nama anggota */
+      .member {
+        font-weight: bold;
+        color: #333;
+      }
+
+      /* CSS untuk nomor anggota */
+      .member-id {
+        color: #777;
+      }
+    </style>
+    <title>My Peta</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Ubah sesuai dengan nama kelompok Anda -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Peta</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="anggota.html">Kelompok</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Judul anggota kelompok -->
+    <h2 class="text-center mt-4">KELOMPOK 8</h2>
+
+    <!-- Nama anggota kelompok dan jabatan dalam kontainer -->
+    <div class="group-info">
+      <div class="member-container">
+        <p>
+          <span class="member">Ripal Putra Mandai</span> -
+          <span class="member-id">2021610028</span>
+        </p>
+      </div>
+      <div class="member-container">
+        <p>
+          <span class="member">Paisal Fahru Lubis</span> -
+          <span class="member-id">2021610043</span>
+        </p>
+      </div>
+      <div class="member-container">
+        <p>
+          <span class="member">Arif Rahmad</span> -
+          <span class="member-id">2021610028</span>
+        </p>
+      </div>
+      <!-- Tambahkan nama dan jabatan anggota kelompok sesuai kebutuhan -->
+    </div>
+  </body>
+</html>
